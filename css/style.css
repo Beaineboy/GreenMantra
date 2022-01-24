@@ -112,6 +112,19 @@ header .icons a{
     text-align: center;
 }
 
+header .icons #menu-bars,
+header .icons img{
+    height:4.5rem;
+    line-height: 4.5rem;
+    width:5rem;
+    font-size: 2rem;
+    margin-right: .5rem;
+    border-radius: .5rem;
+    color:var(--red);
+    background:var(--light-red);
+    text-align: center;
+}
+
 header .icons #menu-bars:hover,
 header .icons a:hover{
     background-color:var(--red);
@@ -673,18 +686,10 @@ header .icons #menu-bars{
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
 
-    header .logo{
-        font-family: 'Nunito', sans-serif;
-        font-weight: bolder;
-        font-size: 2.2rem;
-        color:#333;
-    }
-
-    header .logo img{
-        max-height: 05rem;
-        max-width: 06rem;
-        padding:0 1.5rem;
-    }
+    
+    header .icons img{
+        display: none;
+    } 
 
     
 
